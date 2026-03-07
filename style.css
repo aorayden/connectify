@@ -16,6 +16,17 @@
   --accent2: #0066ff;
   --text: #e4eaf4;
   --muted: #5a6a80;
+
+  /* Новые переменные, перенесённые из правил */
+  --btn-text: #fff;
+  --step-num-text: #fff;
+
+  --hero-glow: rgba(0, 194, 255, 0.08);
+  --download-glow: rgba(0, 102, 255, 0.08);
+
+  --header-bg: rgba(8, 11, 15, 0.85);
+
+  --card-hover-border: rgba(0, 194, 255, 0.35);
 }
 
 /* Анимации */
@@ -54,7 +65,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(8, 11, 15, 0.85);
+  background: var(--header-bg);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
   padding: 0 48px;
@@ -94,7 +105,7 @@ nav a:hover {
 .btn {
   display: inline-block;
   background: linear-gradient(135deg, var(--accent), var(--accent2));
-  color: #fff;
+  color: var(--btn-text);
   border: none;
   padding: 11px 24px;
   border-radius: 8px;
@@ -122,7 +133,7 @@ nav a:hover {
   padding: 100px 48px 80px;
   background: radial-gradient(
     ellipse 70% 50% at 50% 0%,
-    rgba(0, 194, 255, 0.08) 0%,
+    var(--hero-glow) 0%,
     transparent 70%
   );
 }
@@ -172,7 +183,7 @@ nav a:hover {
 }
 
 .card:hover {
-  border-color: rgba(0, 194, 255, 0.35);
+  border-color: var(--card-hover-border);
   transform: translateY(-4px);
 }
 
@@ -238,7 +249,7 @@ nav a:hover {
   font-family: "Unbounded", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
+  color: var(--step-num-text);
 }
 
 .step p {
@@ -254,7 +265,7 @@ nav a:hover {
   text-align: center;
   background: radial-gradient(
     ellipse 60% 60% at 50% 50%,
-    rgba(0, 102, 255, 0.08) 0%,
+    var(--download-glow) 0%,
     transparent 70%
   );
   border-top: 1px solid var(--border);
