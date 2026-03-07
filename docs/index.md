@@ -1,18 +1,7 @@
----
-layout: default
-title: Connectify — CS:GO Legacy Fix
----
-
 <div align="center">
-  <!-- Логотип (если есть) -->
-  <img src="https://raw.githubusercontent.com/rayc-team/connectify/main/icon.png alt="Connectify Logo" style="border-radius: 20px; margin-bottom: 20px;">
-
   <h1>Connectify</h1>
   <p style="font-size: 1.2em; color: #8b949e;">Возвращаем жизнь в сервера сообщества CS:GO</p>
 
-  <br>
-
-  <!-- Кнопка скачивания -->
   <a href="https://github.com/rayc-team/connectify/releases/latest" style="background: linear-gradient(180deg, #2ea44f 0%, #22863a 100%); color: white; padding: 15px 35px; text-decoration: none; border-radius: 8px; font-size: 20px; font-weight: bold; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
     🚀 Скачать Connectify
   </a>
